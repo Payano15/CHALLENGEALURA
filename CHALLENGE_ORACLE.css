@@ -1,0 +1,97 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: #1FC3DF;
+  font-family: Verdana,  tahoma, sans-serif;
+}
+
+h1{
+  padding: 15px;
+  position:fixed;
+  width:100%;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.849);
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+}
+
+.centro, .centro2 {
+  background-color: #1FC3DF;
+  border-radius: 13px;
+  padding: 10px;
+  float: left;
+  margin: 100px 24px;
+  width: 400px;
+  height: 200px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.849);
+}
+
+label, input{
+  margin: 10px;
+  border-radius: 13px;
+}
+
+.txt_encriptado{
+  width: 300px;
+  height: 35px;
+}
+
+.txt_desencriptar{
+  width: 300px;
+  height: 35px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.btn_encriptar, .btn_copy {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px;
+}
+
+.btn_encriptado{
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px;
+  
+}
+
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
